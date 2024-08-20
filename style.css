@@ -1,0 +1,123 @@
+body{
+    background: rgb(220, 220, 220);
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+section>div.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+nav{
+    background: rgb(255, 255, 255);
+    float: right;
+    width: 100vw;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+nav > ul{
+    list-style-type: none;
+    padding: 0px 15px;
+    text-align: right;
+}
+nav > ul > li{
+    display: inline;
+    margin: 0 15px;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+    font-size: 16px;
+}
+section.profile {
+    display: flex;
+    justify-content: center;
+}
+div.profile-card {
+    margin-top: 80px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    min-width: fit-content;
+}
+.profile-img{
+    margin: 0 15px;
+}
+.profile-img > img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.profile-info{
+    width: 50vh;
+    margin: 10px 15px;
+    padding-top: 10px;
+}
+.profile-info h1 {
+    margin: 0;
+}
+.profile-info p {
+    margin-top: 10px;
+}
+.profile-buttons {
+    margin-top: 30px;
+}
+.profile-buttons .contact, .resume {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.contact {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+}
+.resume {
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+}
+section.form{
+    display: flex;
+    justify-content: center;
+}
+div.form-card{
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    position: relative;
+}
+form{
+    width: 100%;
+}
+form > div {
+    padding: 5px 0;
+    margin: 5px 0;
+}
+input{
+    width: 100%;
+    height: 20px;
+    display: grid;
+}
+input.submit {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid green;
+    height: 30px;
+    border-radius: 2px;
+}
